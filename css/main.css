@@ -1,0 +1,15 @@
+.masthead {
+  background-color: #262362;
+  color: #fff;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus {
+  background-color: #fff;
+  color: #262362;
+}
