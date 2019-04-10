@@ -1,3 +1,8 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+  }
+
 .masthead {
   background-color: #262362;
   color: #fff;
@@ -12,4 +17,39 @@
 .nav a:focus {
   background-color: #fff;
   color: #262362;
+}
+
+.banner-header {
+  font-family: "Permanent Marker", cursive;
+  color: #fff;
+}
+
+.banner-content {
+  color: #fff;
+}
+
+.btn-banner:hover,
+.btn-banner:focus {
+  background-color: #262362;
+  border-color: #262362;
+  color: #fff;
+}
+
+.btn-banner {
+  background-color: #fff;
+  color: #262362;
+  border-color: #fff;
+  border-radius: 30px;
+}
+
+.search-bar {
+  border-radius: 30px;
+}
+
+.album-cover {
+  width: 200px;
+}
+
+.trending {
+  text-align: center;
 }
