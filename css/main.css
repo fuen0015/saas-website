@@ -1,11 +1,15 @@
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   background-color: #fff;
   }
 
 .masthead {
   background-color: #262362;
   color: #fff;
+}
+
+.logo {
+  width: 9rem;
 }
 
 .nav a {
@@ -19,13 +23,22 @@ html {
   color: #262362;
 }
 
-.banner-header {
+.banner-header,
+.mini-banner-p {
   font-family: "Permanent Marker", cursive;
   color: #fff;
 }
 
 .banner-content {
   color: #fff;
+}
+
+.mini-banner-text {
+  color: #fff;
+}
+
+.artist-name {
+  color: grey;
 }
 
 .btn-banner:hover,
@@ -52,4 +65,8 @@ html {
 
 .trending {
   text-align: center;
+}
+
+footer {
+  background-color: #262362;
 }
