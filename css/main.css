@@ -10,6 +10,11 @@ html {
 
 .logo {
   width: 9rem;
+  color: #fff;
+}
+
+.logo-link {
+  color: #fff;
 }
 
 .nav a {
@@ -35,6 +40,10 @@ html {
 
 .mini-banner-text {
   color: #fff;
+}
+
+.mini-banner {
+  background-color: #000;
 }
 
 .btn-banner:hover,
@@ -90,4 +99,8 @@ th {
 
 .banner-sign-up {
   background-color: #295192;
+}
+
+.banner {
+  background-color: #000;
 }

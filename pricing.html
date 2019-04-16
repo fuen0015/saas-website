@@ -18,11 +18,11 @@
 
   <header role="banner" class="masthead grid grid-middle">
     <div class="unit x-1-2 s-1-2 m-1-2 l-1-2">
-      <a href="index.html">
+      <a class="logo" href="index.html">
         <img class="img-flex logo" src="images/boombox-logo-white.svg" alt="Boombox">
       </a>
     </div>
-    <nav class="nav unit x-1-2 s-1-2 m-1-2 l-1-2">
+    <nav role="navigation" id="nav" class="nav unit x-1-2 s-1-2 m-1-2 l-1-2">
       <ul class="list-group-inline pad-t">
         <li><a class="ib gutter-1-4" href="pricing.html"><span>Plans</span></a></li>
         <li><a class="ib gutter-1-4" href="tour.html"><span>For Artists</span></a></li>
@@ -33,7 +33,7 @@
 
   </header>
 
-  <main>
+  <main role="main" id="main">
     <section class="relative push">
       <div class="banner embed embed-16by9" tabindex="0">
         <img class="embed-item" src="images/hands.svg" alt="">
@@ -53,7 +53,7 @@
             <p>Occasional ads</p>
             <p>Shuffle Play</p>
             <p>Online listening</p>
-            <a class="btn btn-ghost href="sign-up.html">Sign Up</a>
+            <a class="btn btn-ghost" href="sign-up.html">Sign Up</a>
           </div>
         </div>
       </div>
@@ -66,7 +66,7 @@
             <p>No ads</p>
             <p>Unlimited music</p>
             <p>Offline mode</p>
-            <a class="btn btn-ghost href="#">Try Premium</a>
+            <a class="btn btn-ghost" href="#">Try Premium</a>
           </div>
         </div>
       </div>
@@ -79,14 +79,16 @@
             <p>No ads</p>
             <p>Unlimited music</p>
             <p>Offline mode</p>
-            <a class="btn btn-ghost href="#">Try Family</a>
+            <a class="btn btn-ghost" href="#">Try Family</a>
           </div>
         </div>
       </div>
     </section>
   </main>
-  <footer role="contentinfo" class="grid">
-    <img class="img-flex logo unit push-r x-1-2 s-1-2 m-1-2 l-1-2" src="images/boombox-logo-white.svg" alt="Boombox">
+  <footer role="contentinfo" class="grid island">
+    <div class="unit logo x-1-2 s-1-2 m-1-2 l-1-2">
+      <img class="img-flex" src="images/boombox-logo-white.svg" alt="Boombox">
+    </div>
     <table class="unit x-1-2 s-1-2 m-1-2 l-1-2">
       <caption></caption>
       <thead>

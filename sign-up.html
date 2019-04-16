@@ -18,82 +18,88 @@
 
   <header role="banner" class="masthead grid grid-middle">
     <div class="unit x-1-2 s-1-2 m-1-2 l-1-2">
-      <a href="index.html">
+      <a class="logo-link" href="index.html">
         <img class="img-flex logo" src="images/boombox-logo-white.svg" alt="Boombox">
-        <a href="index.html"></a>
+      </a>
+    </div>
+    <nav role="navigation" id="nav" class="nav unit x-1-2 s-1-2 m-1-2 l-1-2">
+      <ul class="list-group-inline pad-t">
+        <li><a class="ib gutter-1-4" href="pricing.html"><span>Plans</span></a></li>
+        <li><a class="ib gutter-1-4" href="tour.html"><span>For Artists</span></a></li>
+        <li><a class="ib gutter-1-4" href="#"><span>Download</span></a></li>
+        <li><a class="ib gutter-1-4" href="sign-up.html"><span>Sign In/Sign Up</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <main role="main" id="main">
+    <section class="relative">
+      <div class="banner embed embed-16by9" tabindex="0">
+        <img class="embed-item" src="images/musicnotes.svg" alt="">
+      </div>
+      <a href="tour.html">
+        <div class="banner-content absolute pin-c text-center w-1" id="boombox">
+          <h1 class="banner-header push-2 tena">FIND MUSIC YOU WILL LOVE</h1>
+          <h2 class="hidden">FIND MUSIC YOU WILL LOVE</h2>
         </div>
-        <nav class="nav unit x-1-2 s-1-2 m-1-2 l-1-2">
-          <ul class="list-group-inline pad-t">
-            <li><a class="ib gutter-1-4" href="pricing.html"><span>Plans</span></a></li>
-            <li><a class="ib gutter-1-4" href="tour.html"><span>For Artists</span></a></li>
-            <li><a class="ib gutter-1-4" href="#"><span>Download</span></a></li>
-            <li><a class="ib gutter-1-4" href="sign-up.html"><span>Sign In/Sign Up</span></a></li>
-          </ul>
-        </nav>
+      </a>
+    </section>
 
-      </header>
-      <main>
-        <section class="relative">
-          <div class="banner embed embed-16by9" tabindex="0">
-            <img class="embed-item" src="images/musicnotes.svg" alt="">
-          </div>
-          <div class="banner-content absolute pin-c text-center w-1" id="boombox">
-            <h1 class="banner-header push-2 tena">FIND MUSIC YOU WILL LOVE </h1>
-          </div>
-        </section>
+    <section class="contact pad-t-2 pad-b-2">
+      <div class="max-length">
 
-        <section class="contact pad-t-2 pad-b-2">
-          <div class="max-length">
-
-            <form class="push-0" method="POST" action="https://formspree.io/fuen0015@algonquinlive.com">
-              <div class="push">
-                <label for="email">Email</label>
-                <input id="email" type="email" placeholder="youremail@somewebsite.com" name="email" required>
-              </div>
-              <div class="push">
-                <label for="name">Username</label>
-                <input id="name" placeholder="yourusername3000" name="name" required>
-              </div>
-              <div class="push">
-                <label for="password">Password</label>
-                <input id="password" name="password" type="password" required>
-              </div>
-              <div>
-                <button class="btn btn-light mega" type="submit">Sign Up</button>
-              </div>
-            </form>
+        <form class="push-0 gutter" method="POST" action="https://formspree.io/fuen0015@algonquinlive.com">
+          <div class="push">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="youremail@somewebsite.com" name="email" required>
           </div>
-        </section>
-      </main>
-      <footer role="contentinfo" class="grid">
-        <img class="img-flex logo unit push-r x-1-2 s-1-2 m-1-2 l-1-2" src="images/boombox-logo-white.svg" alt="Boombox">
-        <table class="unit x-1-2 s-1-2 m-1-2 l-1-2">
-          <caption></caption>
-          <thead>
-            <tr>
-              <th scope="col">Company</th>
-              <th scope="col">Communities</th>
-              <th scope="col">Links</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>About</td>
-              <td>For Artists</td>
-              <td>Trending</td>
-            </tr>
-            <tr>
-              <td>Jobs</td>
-              <td>Brands</td>
-              <td>New Releases</td>
-            </tr>
-            <tr>
-              <td>Help</td>
-              <td>Investors</td>
-              <td>Explore</td>
-            </tr>
-          </tbody>
-        </table>
-      </footer>
-    </body>
-    </html>
+          <div class="push">
+            <label for="name">Username</label>
+            <input id="name" placeholder="yourusername3000" name="name" required>
+          </div>
+          <div class="push">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" required>
+          </div>
+          <div>
+            <button class="btn btn-light mega" type="submit">Sign Up</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo" class="grid island">
+    <div class="unit logo x-1-2 s-1-2 m-1-2 l-1-2">
+      <img class="img-flex" src="images/boombox-logo-white.svg" alt="Boombox">
+    </div>
+    <table class="unit x-1-2 s-1-2 m-1-2 l-1-2">
+      <caption></caption>
+      <thead>
+        <tr>
+          <th scope="col">Company</th>
+          <th scope="col">Communities</th>
+          <th scope="col">Links</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>About</td>
+          <td>For Artists</td>
+          <td>Trending</td>
+        </tr>
+        <tr>
+          <td>Jobs</td>
+          <td>Brands</td>
+          <td>New Releases</td>
+        </tr>
+        <tr>
+          <td>Help</td>
+          <td>Investors</td>
+          <td>Explore</td>
+        </tr>
+      </tbody>
+    </table>
+  </footer>
+</body>
+</html>
