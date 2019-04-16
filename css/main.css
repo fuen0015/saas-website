@@ -1,7 +1,7 @@
 html {
   font-family: Montserrat, sans-serif;
   background-color: #fff;
-  }
+}
 
 .masthead {
   background-color: #262362;
@@ -69,4 +69,16 @@ html {
 
 footer {
   background-color: #262362;
+}
+
+table {
+  color: #fff;
+}
+
+td {
+  border: none;
+}
+
+th {
+  border: none;
 }

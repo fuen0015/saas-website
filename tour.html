@@ -11,7 +11,12 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Permanent+Marker" rel="stylesheet">
 </head>
 <body>
-  <header class="masthead grid grid-middle">
+  <ul class="skip-links">
+    <li><a href="#nav">skip to navigation</a></li>
+    <li><a href="#main">skip to main</a></li>
+  </ul>
+
+  <header role="banner" class="masthead grid grid-middle">
     <div class="unit x-1-2 s-1-2 m-1-2 l-1-2">
       <a href="index.html">
         <img class="img-flex logo" src="images/boombox-logo-white.svg" alt="Boombox">
@@ -38,7 +43,35 @@
     </section>
 
   </main>
-  <footer>
-    <img class="img-flex logo unit x-1-2 s-1-2 m-1-2 l-1-2" src="images/boombox-logo-white.svg" alt="Boombox">
+  <footer role="contentinfo" class="grid">
+    <img class="img-flex logo unit push-r x-1-2 s-1-2 m-1-2 l-1-2" src="images/boombox-logo-white.svg" alt="Boombox">
+    <table class="unit x-1-2 s-1-2 m-1-2 l-1-2">
+      <caption></caption>
+      <thead>
+        <tr>
+          <th scope="col">Company</th>
+          <th scope="col">Communities</th>
+          <th scope="col">Links</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>About</td>
+          <td>For Artists</td>
+          <td>Trending</td>
+        </tr>
+        <tr>
+          <td>Jobs</td>
+          <td>Brands</td>
+          <td>New Releases</td>
+        </tr>
+        <tr>
+          <td>Help</td>
+          <td>Investors</td>
+          <td>Explore</td>
+        </tr>
+      </tbody>
+    </table>
   </footer>
 </body>
+</html>
