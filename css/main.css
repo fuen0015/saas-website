@@ -37,10 +37,6 @@ html {
   color: #fff;
 }
 
-.artist-name {
-  color: grey;
-}
-
 .btn-banner:hover,
 .btn-banner:focus {
   background-color: #262362;
@@ -81,4 +77,17 @@ td {
 
 th {
   border: none;
+}
+
+.plan {
+  border: 3px solid #262362;
+  border-radius: 42px;
+}
+
+.artist-img {
+  width: 100%;
+}
+
+.banner-sign-up {
+  background-color: #295192;
 }
